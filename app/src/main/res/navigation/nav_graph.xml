@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/lobbyFragment">
+
+    <fragment android:id="@+id/lobbyFragment"
+              android:name="com.jpinto.emergencia.ui.lobby.LobbyFragment"
+              android:label="lobby_fragment"
+              tools:layout="@layout/lobby_fragment"/>
+
+    <fragment android:id="@+id/contactsFragment"
+              android:name="com.jpinto.emergencia.ui.contacts.ContactsFragment"
+              android:label="contacts_fragment"
+              tools:layout="@layout/contacts_fragment"/>
+
+    <fragment android:id="@+id/profileFragment"
+              android:name="com.jpinto.emergencia.ui.profile.ProfileFragment"
+              android:label="profile_fragment"
+              tools:layout="@layout/profile_fragment"/>
+
+    <fragment android:id="@+id/familyFragment"
+              android:name="com.jpinto.emergencia.ui.family.FamilyFragment"
+              android:label="family_fragment"
+              tools:layout="@layout/family_fragment"/>
+
+    <fragment android:id="@+id/settingsFragment"
+              android:name="com.jpinto.emergencia.ui.settings.SettingsFragment"
+              android:label="settings_fragment"
+              tools:layout="@layout/settings_fragment"/>
+</navigation>

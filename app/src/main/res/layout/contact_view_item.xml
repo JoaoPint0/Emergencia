@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   app:cardCornerRadius="8dp"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:layout_margin="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+        <TextView android:id="@+id/name"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="8dp"
+                  android:textColor="@android:color/black"
+                  android:textSize="18sp"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/call_number"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintBottom_toTopOf="@+id/number"
+                  tools:text="Joao Pinto"
+                  app:layout_constraintHorizontal_bias="0.0"/>
+
+        <TextView android:id="@+id/number"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="14sp"
+                  app:layout_constraintStart_toStartOf="@id/name"
+                  app:layout_constraintTop_toBottomOf="@id/name"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  tools:text="912495804"/>
+
+        <ImageButton android:id="@+id/call_number"
+                     android:layout_width="@dimen/list_button_size"
+                     android:layout_height="@dimen/list_button_size"
+                     android:layout_marginStart="8dp"
+                     android:layout_marginEnd="8dp"
+                     android:src="@drawable/ic_call"
+                     android:background="?attr/selectableItemBackgroundBorderless"
+                     app:layout_constraintTop_toTopOf="parent"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintEnd_toStartOf="@+id/favorite"/>
+
+        <ImageButton android:id="@+id/favorite"
+                     android:layout_width="@dimen/list_button_size"
+                     android:layout_height="@dimen/list_button_size"
+                     android:layout_marginStart="8dp"
+                     android:layout_marginEnd="8dp"
+                     android:src="@drawable/ic_empty_star"
+                     android:background="?attr/selectableItemBackgroundBorderless"
+                     app:layout_constraintTop_toTopOf="parent"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

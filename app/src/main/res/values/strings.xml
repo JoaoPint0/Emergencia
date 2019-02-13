@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Emergencia</string>
+    <string name="service_not_available">Service Not Available</string>
+    <string name="invalid_lat_long_used">Invalid Latitude or Longitude Used</string>
+    <string name="no_address_found">No address found at this location</string>
+    <string name="address_found">Address Found</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="no_location_found">We require Internet connection to retrieve an address</string>
+    <string name="loading">Loading ...</string>
+    <string name="lobby_bottom_nav_item_title">Lobby</string>
+    <string name="profile_bottom_nav_title">Profile</string>
+    <string name="elderly_bottom_nav_item_title">Family</string>
+    <string name="settings_bottom_nav_item_title">Settings</string>
+    <string name="contacts_bottom_nav_item_title">Contacts</string>
+</resources>

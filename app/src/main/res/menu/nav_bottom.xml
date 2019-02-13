@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/familyFragment"
+          android:icon="@drawable/ic_elderly"
+          android:title="@string/elderly_bottom_nav_item_title" />
+
+    <item android:id="@+id/profileFragment"
+          android:icon="@drawable/ic_man"
+          android:title="@string/profile_bottom_nav_title" />
+
+    <item android:id="@+id/lobbyFragment"
+          android:icon="@drawable/ic_location_on_black"
+          android:title="@string/lobby_bottom_nav_item_title" />
+
+    <item android:id="@+id/contactsFragment"
+          android:icon="@drawable/ic_phone_book"
+          android:title="@string/contacts_bottom_nav_item_title" />
+
+    <item android:id="@+id/settingsFragment"
+          android:icon="@drawable/ic_nut_icon"
+          android:title="@string/settings_bottom_nav_item_title" />
+</menu>

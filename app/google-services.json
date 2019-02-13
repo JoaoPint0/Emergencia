@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "943390521846",
+    "firebase_url": "https://sosportugal-4e12c.firebaseio.com",
+    "project_id": "sosportugal-4e12c",
+    "storage_bucket": "sosportugal-4e12c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943390521846:android:50d02e6381f46efc",
+        "android_client_info": {
+          "package_name": "com.jpinto.emergencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943390521846-u2f8n6ls3mk7k26283ct2etlv2r7bc55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx3XidQDEe5y1DXB5i2nHWCj1HlK7CzZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
